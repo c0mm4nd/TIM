@@ -1,0 +1,143 @@
+{
+  "categories": [
+    {
+      "core_category": "Investment or Speculative Profit",
+      "axial_codings": [
+        {
+          "axial_coding": "1.1 Trading Strategies",
+          "secondary_codings": [
+            {
+              "secondary_coding": "1.1.1 Spot Trading Profit",
+              "definition": "Generating returns by buying or selling tokens in decentralized exchanges (DEXs such as Uniswap, SushiSwap, PancakeSwap, etc.) based on token price differences. This trading method directly uses actually held assets without leverage or margin."
+            },
+            {
+              "secondary_coding": "1.1.2 Leveraged Trading Profit",
+              "definition": "A strategy that amplifies trading position size using borrowed funds to increase potential returns while correspondingly increasing risk exposure. Leverage multiples (such as 2x, 5x, 10x, etc.) represent the ratio of total investment to own funds; the higher the multiple, the greater the potential returns and risks. (Example: Trading ETH with 5x leverage on platforms like dYdX or GMX, where a 1% price movement would produce a 5% profit or loss)"
+            },
+            {
+              "secondary_coding": "1.1.3 Long-term Holding",
+              "definition": "An investment strategy based on confidence in the long-term value growth of specific crypto assets, involving buying and holding for extended periods. This strategy ignores short-term market fluctuations and focuses on the long-term value growth of projects."
+            },
+            {
+              "secondary_coding": "1.1.4 Arbitrage",
+              "definition": "This refers to strategies where traders exploit price differences between markets to obtain low-risk returns, mainly including: cross-DEX platform arbitrage (such as BTC price differences between Uniswap and Aave), triangular arbitrage (profiting through ETH→BTC→USDT→ETH trading paths), technical arbitrage (gaining price advantages through front-running or sandwich trading), oracle arbitrage (exploiting differences between Chainlink and other oracle data delays versus actual market prices), flash loan arbitrage (borrowing large amounts of funds to execute arbitrage in a single transaction; these attacks typically combine other vulnerabilities such as price manipulation, oracle vulnerabilities, or protocol exploits to achieve large-scale attacks without requiring initial capital)."
+            }
+          ]
+        },
+        {
+          "axial_coding": "1.2 Liquidity Mining and Yield Farming",
+          "secondary_codings": [
+            {
+              "secondary_coding": "1.2.1 Provide/Create Liquidity Pool",
+              "definition": "The act of providing paired assets (such as ETH/USDT) to decentralized exchange (DEX) pools to support transaction execution and receive transaction fee shares and/or platform token rewards. Providers typically receive LP tokens (Liquidity Provider Tokens) as proof of their liquidity contribution, which represent their share in the pool and can be used to withdraw liquidity or further use in other DeFi protocols. (Example: Providing ETH/USDT liquidity on Uniswap to receive UNI-V2 LP tokens)"
+            },
+            {
+              "secondary_coding": "1.2.2 Participating in Lending Markets",
+              "definition": "The act of depositing crypto assets on DeFi lending platforms (such as Aave, Compound, MakerDAO) for others to borrow, or borrowing assets from these platforms. Depositors (also known as \"lenders\" or \"suppliers\") profit from interest paid by borrowers, with rates typically adjusted dynamically based on market supply and demand. Borrowers need to provide excess collateral (typically 130%-175% of the loan value) to secure the loan."
+            },
+            {
+              "secondary_coding": "1.2.3 Yield Aggregation",
+              "definition": "A strategy that uses smart algorithms to automatically allocate funds to multiple liquidity pools or lending markets with the highest yields across DeFi protocols to maximize user returns. Yield aggregators (such as Yearn Finance, Beefy Finance, Harvest Finance) automatically execute fund rebalancing and compounding strategies, reducing operational complexity and gas fee expenditure for users."
+            }
+          ]
+        },
+        {
+          "axial_coding": "1.3 Staking",
+          "secondary_codings": [
+            {
+              "secondary_coding": "1.3.1 ETH Liquid Staking",
+              "definition": "Staking ETH to liquid staking protocols (such as Lido, Rocket Pool) where users receive tradable derivative tokens (such as stETH, rETH) after staking, which represent the user's staked equity and can be used for trading, lending, etc. in the DeFi ecosystem. Unlike traditional PoS (Proof of Stake) staking, liquid staking allows users to continue utilizing their assets for other financial operations without waiting for unstaking unlock periods. (Example: Staking ETH on Lido to receive stETH, staking ETH on Rocket Pool to receive rETH.)"
+            },
+            {
+              "secondary_coding": "1.3.2 DeFi Governance Token Staking",
+              "definition": "Depositing governance tokens of DeFi protocols (such as CRV, AAVE, COMP) into the protocol in exchange for governance rights or economic benefits. Staked governance tokens are typically used for vote governance (making decisions about the protocol's future direction), protocol revenue distribution (receiving transaction fee shares), increasing mining rewards (improving liquidity mining yield rates), etc. Unlike ETH liquid staking, the main purpose of this type of staking is to influence protocol governance or obtain rewards, rather than participating in the PoS consensus mechanism. (Example: Curve's veCRV mechanism, locking CRV to obtain voting rights and higher CRV mining rewards; staking AAVE to receive voting rights and security incentives.)"
+            },
+            {
+              "secondary_coding": "1.3.3 Compound Liquid Staking",
+              "definition": "Liquid staking derivatives (such as stETH, rETH) can be further utilized in other DeFi protocols for secondary staking, lending, or yield aggregation. This allows users to improve asset utilization and achieve higher returns through multi-layered DeFi combinations (also known as \"Money Legos\" or \"DeFi Stacking\"), though it also increases smart contract risk and liquidation risk. (For example: users can deposit Rocket Pool staking tokens (rETH) into the Pendle protocol to separate yields, obtaining PT tokens representing principal and YT tokens representing yield, then choose to sell YT for immediate cash flow while retaining PT to redeem the principal at maturity, or provide PT-YT liquidity to earn additional PENDLE token rewards; users who stake ETH with Lido to receive stETH and enjoy basic staking yields can further stake their stETH with EigenLayer to receive eETH, simultaneously maintaining original staking rewards, earning additional EIGEN token incentives, gaining opportunities to participate in AVS service yields in the future, while still maintaining liquidity by trading their eETH on secondary markets.)"
+            }
+          ]
+        },
+        {
+          "axial_coding": "1.4 Early Project Participation",
+          "secondary_codings": [
+            {
+              "secondary_coding": "1.4.1 Participating in Airdrops",
+              "definition": "The act of receiving tokens distributed free of charge by project teams, typically to reward early users, expand the token holder base, or promote ecosystem participation. Obtaining airdrops usually requires meeting specific conditions, such as holding specific tokens or interacting with the protocol. Airdrops are common marketing and community building strategies used by project teams, and also an important token distribution mechanism. (Example: Uniswap airdropping UNI tokens to historical users, dYdX airdropping DYDX tokens to early platform users)"
+            },
+            {
+              "secondary_coding": "1.4.2 Participating in Presales/Initial Offerings",
+              "definition": "Participating in various forms of early funding rounds before tokens are publicly traded, such as Initial Coin Offerings (ICO), Initial DEX Offerings (IDO), Initial Exchange Offerings (IEO), Initial Game Offerings (IGO), or Initial NFT Offerings (INO), etc., typically acquiring tokens at discounted prices. These early investment opportunities usually come with higher risks and potential returns."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "core_category": "Personal Risk Control and Management",
+      "axial_codings": [
+        {
+          "axial_coding": "2.1 Asset Security Assurance",
+          "secondary_codings": [
+            {
+              "secondary_coding": "2.1.1 Using Secure Wallets",
+              "definition": "Security practices involving the deployment and use of smart contract wallets (such as Gnosis Safe, Multisig.xyz) that require multiple private key holders (such as a 3/5 signature threshold) to jointly authorize fund transfers or contract interactions. On-chain, this appears as transactions executed through multi-signature contracts (Multisig Contract), with unique transaction patterns: first, multiple authorized addresses submit signature confirmations to the multisig contract (Confirmation Transaction), and after reaching the preset threshold, the actual operation is executed (Execution Transaction). This mechanism effectively prevents single point of failure and single private key theft risks, and is particularly suitable for team funds, DAO treasuries, and large asset management. (Example: Managing DAO funds through Gnosis Safe, setting a 4/7 signature threshold, requiring approval from at least 4 core members to execute fund allocation)"
+            },
+            {
+              "secondary_coding": "2.1.2 Permission Management",
+              "definition": "The practice of controlling and limiting smart contracts' access to user crypto assets, typically including regular checks and revocation of unnecessary authorizations (using tools like Revoke.cash, Etherscan, etc.) to prevent malicious contracts from accessing user assets without authorization. When interacting with DeFi protocols, users typically need to grant protocol token usage rights (Token Approval), and managing these permissions is crucial for asset security."
+            },
+            {
+              "secondary_coding": "2.1.3 Purchasing Insurance",
+              "definition": "Insuring crypto assets such as Liquidity Pools or Vaults and services with specialized DeFi insurance products (such as Nexus Mutual, InsurAce, Unslashed Finance) to provide financial protection in cases of hacker attacks, smart contract vulnerabilities, or protocol failures. Insurance premiums are typically priced based on the risk level of the insured assets."
+            }
+          ]
+        },
+        {
+          "axial_coding": "2.2 Investment Risk Management",
+          "secondary_codings": [
+            {
+              "secondary_coding": "2.2.1 Stop-Loss Strategies",
+              "definition": "Stop-loss strategy is an important risk management technique that can be implemented in three main ways: automatic asset selling, automatic debt reduction, and collateral addition. Automatic selling is typically executed through limit orders on centralized exchanges (such as Binance, Coinbase) or decentralized exchanges (such as Uniswap, dYdX), which automatically trigger sales when asset prices reach preset thresholds. Automatic debt reduction is primarily applied in DeFi lending protocols (such as Aave, Compound), using liquidation mechanisms or smart contracts to automatically repay portions of loans when prices fall, reducing liquidation risk. The collateral addition strategy usually incorporates oracles (such as Chainlink) to monitor prices, automatically injecting additional collateral when asset prices approach liquidation thresholds to maintain healthy collateralization ratios, commonly seen in protocols like MakerDAO and Liquity. These techniques can be used individually or in combination, helping investors and borrowers limit losses and protect position security during market volatility."
+            },
+            {
+              "secondary_coding": "2.2.2 Hedging Strategies",
+              "definition": "In the Ethereum ecosystem, investors can employ various complementary hedging strategies to manage portfolio risk. (1) By utilizing decentralized derivatives offered on platforms such as dYdX and Synthetix, traders can establish positions opposite to their existing crypto assets, thereby mitigating losses during market downturns. (2) They can choose to participate as liquidity providers in decentralized exchanges like Uniswap or Curve, partially offsetting risks from asset price fluctuations by earning trading fees. (2) They can integrate stablecoin strategies, automatically converting a certain percentage of assets to stablecoins such as DAI or USDC through smart contracts, maintaining overall portfolio stability."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "core_category": "Project Participation and Ecosystem Governance",
+      "axial_codings": [
+        {
+          "axial_coding": "3.1 Direct Governance",
+          "secondary_codings": [
+            {
+              "secondary_coding": "3.1.1 Voting",
+              "definition": "The act of token holders using their governance tokens to vote on project proposals. On the Ethereum network, voting interactions appear as calls to specific functions of governance contracts, such as the vote() function of Compound's Governor contract, Aave's Governance contract, or Uniswap's GovernorAlpha contract. On-chain voting records include voter address, proposal ID, voting choice (for/against/abstain), and voting weight. Different protocols adopt different voting mechanisms: Compound and Uniswap use token quantity-based voting rights; Curve adopts time-weighted voting (veCRV); MakerDAO uses Executive Vote and Governance Poll mechanisms."
+            },
+            {
+              "secondary_coding": "3.1.2 Proposals",
+              "definition": "The process by which token holders submit formal suggestions to change the protocol to the community. In Ethereum DeFi protocols, submitting proposals typically appears as interaction with the propose() function of governance contracts, requiring holding a certain amount of governance tokens (such as Uniswap requiring at least 10 million UNI). Proposal creation transactions include proposal content, specific execution code, and proposal deadlines. Taking Compound as an example, proposals go through review period, voting period, and execution delay period after creation, with clear on-chain transactions and status changes for each stage. The lifecycle of proposals is traceable on-chain, including proposal creation transactions, status update transactions, and final execution transactions."
+            }
+          ]
+        },
+        {
+          "axial_coding": "3.2 Indirect Governance",
+          "secondary_codings": [
+            {
+              "secondary_coding": "3.2.1 Delegating Voting Rights",
+              "definition": "The act of token holders granting voting rights to third parties. In Ethereum DeFi protocols, delegation appears as interaction with the delegate() function of governance token contracts, specifying the delegate address. Delegation transactions record the delegator address, delegate address, and delegated voting weight on-chain. Major DeFi protocols such as Compound (COMP), Uniswap (UNI), and Aave (AAVE) all support delegation mechanisms, allowing holders to transfer voting rights while retaining token ownership. Some protocols like ENS use delegation to separate governance rights and economic interests, appearing on-chain as delegateBySig() transactions, supporting offline signature delegation. Delegation status can be verified by calling contract query functions (such as delegates()) or viewing delegation events (DelegateChanged)."
+            },
+            {
+              "secondary_coding": "3.2.2 Vulnerability Reporting",
+              "definition": "The act of discovering and reporting code vulnerabilities or security risks to project teams, typically rewarded through bug bounty programs (provided by platforms such as Immunefi, HackenProof, etc.). White Hat Hackers (security researchers who discover and report vulnerabilities in an ethical manner) play an important role in protecting the security of the DeFi ecosystem."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
