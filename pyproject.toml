@@ -18,7 +18,7 @@ groq = {git = "https://github.com/groq/groq-python.git", rev = "generated"}
 langchain-google-genai = "2.0.7"
 langchain-google = "^0.1.1"
 langgraph = "^0.2.60"
-langchain-core = "^0.3.28"
+langchain-core = "^0.3.81"
 langchain-community = "^0.3.13"
 fastapi = {extras = ["standard"], version = "^0.115.6"}
 websockets = "^14.1"
